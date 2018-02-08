@@ -1,0 +1,19 @@
+{
+  "name": "consul-to-env",
+  "version": "0.1.0",
+  "description": "Generate a .env file from consul config",
+  "main": "index.js",
+  "author": "greuze@gmail.com",
+  "license": "GPL3",
+  "bin": {
+    "consul-to-env": "./bin/consul-to-env"
+  },
+  "dependencies": {
+    "commander": "^2.14.1",
+    "r2": "^2.0.0"
+  },
+  "engineStrict" : true,
+  "engines": {
+    "node": ">= 8.0.0"
+  }
+}
