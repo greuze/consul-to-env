@@ -1,10 +1,14 @@
 {
   "name": "consul-to-env",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generate a .env file from consul config",
   "main": "index.js",
-  "author": "greuze@gmail.com",
+  "author": "Ivan Lopez <greuze@gmail.com>",
   "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greuze/consul-to-env.git"
+  },
   "bin": {
     "consul-to-env": "./bin/consul-to-env"
   },
@@ -14,6 +18,6 @@
   },
   "engineStrict" : true,
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 8"
   }
 }
